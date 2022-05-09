@@ -1,0 +1,116 @@
+
+.key {
+	width: 45px;
+	height: 45px;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px #302c2b, 0 1px 2px lightsalmon;
+	background-color: #f5ede8;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s ease-in;
+  user-select: none;
+  cursor:pointer;
+  }
+  
+  .backspace {
+	width: 106px;
+  }
+  
+  
+  .tab {
+	width: 67.5px;
+  }
+  
+  
+  .caps-lock,
+  .shift-right {
+	width: calc(78.75px + 1.5px);
+  }
+  
+  .shift-left {
+	width: calc(101.25px + 1.5px);
+  }
+
+  .enter {
+    width: 118.25px;
+  }
+
+  .backslash {
+    width: 83.5px;
+  }
+  
+  .lambda {
+	width: calc(65px);
+	background-color: lightsalmon;
+  }
+  
+  .space {
+	width: 290px;
+	background-color: #7bb18d;
+  }
+  
+  .ctrl,
+  .alt,
+  .super,
+  .fn {
+	width: 59px;
+  }
+  
+  .fn {
+	margin-right: 18px;
+  }
+  
+  .backspace,
+  .tab,
+  .caps-lock,
+  .enter,
+  .shift-left,
+  .shift-right,
+  .ctrl,
+  .backslash,
+  .alt,
+  .super,
+  .fn,
+  .win,
+  .del {
+	background-color: #7bb18d;
+  }
+
+  .shift-right {
+    width: 96px;
+  }
+  
+  .esc,
+  .up,
+  .left,
+  .down,
+  .right {
+	background-color: #fdc85e;
+  }
+  
+  .esc,
+  .lambda,
+  .up,
+  .down,
+  .left,
+  .right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .esc > span {
+	display: inline-block;
+	font-size: 25px;
+	transform-origin: center;
+	animation: 0.5s up infinite linear alternate;
+  }
+  
+  .lambda > span {
+	animation: 0.7s heart infinite linear alternate;
+  }
+
+  .azure {
+    background-color: hsl(279, 44%, 35%);
+  }
